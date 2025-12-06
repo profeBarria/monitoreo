@@ -28,7 +28,7 @@ visits_histogram = Histogram(
 
 while True:
     # Simulamos la cantidad de visitas de la última hora
-    hourly_visits = random.randint(0, 300)
+    hourly_visits = random.randint(0, 1000)
 
     # Counter: acumulado total del día
     visits_total.inc(hourly_visits)
