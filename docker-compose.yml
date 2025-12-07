@@ -10,7 +10,7 @@ services:
       - '--web.enable-lifecycle'
     volumes:
       # Archivo de configuración Prometheus
-      - /root/monitoreo/prometheus.yml:/etc/prometheus/prometheus.yml
+      - /root/pregunta2/prometheus.yml:/etc/prometheus/prometheus.yml
       # Persistencia de datos
       - prometheus_data:/prometheus
     ports:
